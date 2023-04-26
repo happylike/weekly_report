@@ -108,15 +108,7 @@ const Home: NextPage = () => {
         
 
 
-      <a
-          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-          href="https://github.com/guaguaguaxia/weekly_report"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Github />
-          <p>Star on GitHub</p>
-        </a>
+  
 
 
 
@@ -193,7 +185,7 @@ const Home: NextPage = () => {
                 {t('privacyPolicy1')}
               <a
                 className="text-blue-200 hover:text-blue-400"
-                href="https://github.com/guaguaguaxia/weekly_report/blob/main/privacy.md"
+                href="https://baidu.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >{' '}{t('privacyPolicy2')}</a>
@@ -203,7 +195,7 @@ const Home: NextPage = () => {
 
 
             <br/>
-            <p className="text-slate-500" style={{textAlign: "center"}}>由于费用过高，本站一分钟内仅接受 20 次请求，迟迟不能生成周报是因为暂时限流，请收藏此网站后在低峰期使用。有任何问题请联系我的邮箱 guaguaguaxia@Gmail.com，我会一一回复。</p>
+            <p className="text-slate-500" style={{textAlign: "center"}}>由于费用过高，本站一分钟内仅接受 20 次请求，迟迟不能生成建议是因为暂时限流，请收藏此网站后在低峰期使用。有任何问题请联系我的微信，我会一一回复。</p>
 
           </div>
         </div>
@@ -228,7 +220,7 @@ const Home: NextPage = () => {
                       className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
                       onClick={() => {
                         navigator.clipboard.writeText(generatedChat.trim());
-                        toast("已复制完整周报内容", {
+                        toast("已复制完整建议内容", {
                           icon: "✂️",
                         });
                       }}
