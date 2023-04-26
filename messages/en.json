@@ -15,7 +15,7 @@
     "simplifierButton": "生成建议",
     "simplifiedContent": "建议的内容",
     "privacyPolicy1": "不储存上传的信息，但请勿上传过于隐私的工作内容。ai不具备法律意见的资格，仅供尝鲜测试",
-    "privacyPolicy2": "《隐私声明》",
+    "privacyPolicy2": " ",
     "paragraphForm": "段落",
     "paragraphFormPrompt": "请总结<|start|>与<|end|>之间的聊天内容。要求简明扼要，以一段话的形式输出。\n\n<|start|>",
     "prompt": "请帮我把以下的工作内容填充为一篇完整的周报,用 markdown 格式以分点叙述的形式输出:",
